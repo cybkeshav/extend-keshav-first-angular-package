@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable( // {providedIn: 'root'}
-)
+@Injectable() // {providedIn: 'root'}
 export class DemoService {
   public PurchagePrice = 0;
   public SellingPrice = 0;

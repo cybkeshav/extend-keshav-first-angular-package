@@ -1,17 +1,16 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { DemoComponent } from './demo.component';
+
 import { DemoService } from '../demo.service';
 
 @NgModule({
   declarations: [DemoComponent],
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule],
   exports: [DemoComponent],
   providers: [
     // no need to place providers if `providedIn` flag is added in service.
-    DemoService,
-  ],
+    DemoService
+  ]
 })
-export class DemoModule { }
+export class DemoModule {}
