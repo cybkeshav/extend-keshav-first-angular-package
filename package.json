@@ -1,6 +1,6 @@
 {
   "name": "extend-keshav-first-angular-package",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +12,7 @@
     "packagr": "ng-packagr -p ng-package.json",
     "cp": "npm run lint && npm run packagr"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
